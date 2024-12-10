@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_ecs():
     # Response message
-    return 'Hello from ECS Container!'
+    return 'Hello from princeton ECS Container!'
 
 # Main entry point
 if __name__ == '__main__':
